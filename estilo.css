@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(28, 170, 123);
+    text-align: center;
+}
+header{
+    font: normal 28px Arial;
+    color: white;
+    padding:10px;
+}
+section{
+    background-color: white;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.511);
+    border-radius: 10px;
+    font: normal 15px Arial;
+    text-align: left;
+    width: 500px;
+    margin: auto;
+    padding:10px;
+}
+footer{
+    font: normal 15px Arial;
+    padding:10px;
+}
+
+.tabela-scroll {
+    max-height: 150px;
+    overflow-y: auto; 
+}  
+table {
+    width: 100%;
+}
+  
+td {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 8px;
+    text-align: left;
+}
